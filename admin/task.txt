@@ -1,0 +1,2 @@
+#* * * * * /opt/lampp/bin/php /opt/lampp/htdocs/sbo-replenishment/admin/index.php schedule schedule_employees /dev/null &
+0 0 23 * * rm ~/.pm2/pm2.log && pm2 flush

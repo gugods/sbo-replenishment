@@ -1,0 +1,39 @@
+{
+    "name": "ecodev/graphql-upload",
+    "description": "A middleware to support file uploads in GraphQL",
+    "type": "library",
+    "keywords": ["api", "graphql", "upload", "multipart", "middleware"],
+    "scripts": {
+        "check": [
+            "php-cs-fixer fix --ansi --dry-run --diff",
+            "phpunit --color=always",
+            "phpstan analyse --ansi"
+        ],
+        "fix": [
+            "php-cs-fixer fix --ansi"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "GraphQL\\Upload\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GraphQLTests\\Upload\\": "tests"
+        }
+    },
+    "require": {
+        "php": "^7.1",
+        "ext-json": "*",
+        "psr/http-server-middleware": "^1.0",
+        "webonyx/graphql-php": "^0.13.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "@stable",
+        "zendframework/zend-diactoros":"@stable",
+        "phpunit/phpunit": "@stable",
+        "phpstan/phpstan": "^0.10.5"
+    },
+    "license": "MIT"
+}

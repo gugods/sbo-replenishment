@@ -1,0 +1,8 @@
+{
+  "require": {
+    "chriskacerguis/codeigniter-restserver": "^3.0",
+    "webonyx/graphql-php": "^0.13.1",
+    "ecodev/graphql-upload": "^4.0",
+    "ktamas77/firebase-php": "^2.2"
+  }
+}

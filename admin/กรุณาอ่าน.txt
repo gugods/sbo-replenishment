@@ -1,0 +1,16 @@
+Setting config
+
+themes\admin\asset\js\ckeditor\filemanager\ckupload.php
+themes\admin\asset\js\ckeditor\filemanager\scripts\filemanager.config.js
+application\config\database.php
+
+Setting Production
+vendor\chriskacerguis\codeigniter-restserver\application\rest.php
+allow_any_cors_domain,check_cors SET FALSE
+allowed_cors_origins SET DOMAIN
+
+
+application\config\config.php
+cookie_path SET webadmin
+
+
